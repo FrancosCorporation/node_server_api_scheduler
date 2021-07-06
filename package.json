@@ -1,0 +1,17 @@
+{
+  "name": "node-server-api-scheduler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --ignore-watch node_modules --no-notify src/server.ts"
+  },
+  "dependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "tsconfig-paths": "^3.9.0"
+  }
+}
