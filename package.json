@@ -1,9 +1,10 @@
 {
   "name": "node-server-api-scheduler",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/server.ts",
   "license": "MIT",
   "scripts": {
+    "start": "ts-node-dev src/server.ts",
     "dev": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --ignore-watch node_modules --no-notify src/server.ts"
   },
   "dependencies": {
@@ -13,5 +14,7 @@
   "devDependencies": {
     "express": "^4.17.1",
     "tsconfig-paths": "^3.9.0"
-  }
+  },
+  "description": "API com agendador de tarefas em Node/TypeScript",
+  "author": "Rodolfo Franco (FrancosCorporation)"
 }
