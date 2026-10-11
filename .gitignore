@@ -1,16 +1,8 @@
-/node_modules
-node_modules
-.env
-.env.local
-
-# build
+node_modules/
 dist/
-build/
-
-# logs
-*.log
-
-# sistema / IDE
-.DS_Store
-Thumbs.db
-.idea/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+npm-debug.log*
+yarn-error.log*
